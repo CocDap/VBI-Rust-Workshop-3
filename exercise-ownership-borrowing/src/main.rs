@@ -1,7 +1,7 @@
 
-// fn main(){
+fn main(){
 
-// }
+}
 
 //Exercise 1
 // fn main() {
