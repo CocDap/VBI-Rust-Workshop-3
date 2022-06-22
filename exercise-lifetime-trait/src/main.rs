@@ -33,16 +33,24 @@
 // impl Iterator for Fibonacci {
 //     type Item = TODO!;
 
+// Trả về số fibonaci tiếp theo dựa trên kiểu dữ liệu struct Fibonacci
 //     fn next(&mut self) -> Option<u32> {
 //         todo!()
 //     }
 // }
 
+// Khởi tạo ban đầu cho Fibonaci: 0, 1
 // fn fibonacci_numbers() -> Fibonacci {
 //     Fibonacci { a: 1, b: 0 }
 // }
 
 // fn main() {
+//     Vì struct Fibonacci có implement trait Iterator của Rust nên 
+// có thể dùng câu lệnh for dc
+// Câu lệnh for bản chất sẽ chuyển qua trait Iterator nên instance của
+// struct Fibonacci có thể duyệt được, 
+// Mỗi lần duyệt sẽ tự động chạy function signature next() trên
+// Nên cần implement hàm next() cho struct Fiboncci.
 //     for number in fibonacci_numbers() {
 //         println!("{}", number);
 //     }
